@@ -1,0 +1,23 @@
+.banner-box1 p{
+    /* color:var(--secondary-color); */
+    font-weight:500;
+}
+.banner-slogan p{
+    /* color:var(--secondary-color); */
+    /* color:black; */
+    font-weight:500;
+}
+.text-color1{
+    color:rgb(84, 28, 176);
+}
+.text-color2{
+    color:rgb(50, 109, 215);
+}
+.card1{
+    background-color:rgb(27, 35, 71);
+    color:white;
+}
+.posters{
+    height:500px
+}
+

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Inter Tight", sans-serif;
+
+}
+/* html,body{
+    height:100%;
+    width:100%
+} */
+:root{
+    --primary-color:rgb(84, 28, 176);
+    --secondary-color:rgb(50, 109, 215);
+}
+body{
+    background-color:rgb(245, 245, 245);
+}
