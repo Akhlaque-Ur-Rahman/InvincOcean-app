@@ -9,10 +9,10 @@
     font-family: "Inter Tight", sans-serif;
 
 }
-/* html,body{
+html,body{
     height:100%;
     width:100%
-} */
+}
 :root{
     --primary-color:rgb(84, 28, 176);
     --secondary-color:rgb(50, 109, 215);

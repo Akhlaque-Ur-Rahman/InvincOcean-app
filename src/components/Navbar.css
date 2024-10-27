@@ -1,8 +1,8 @@
-#menu-icon{
+/* #menu-icon{
     display:none;
 }
 .navbar{
-    /* width:100%; */
+    width:100%;
     background-color:rgb(245, 245, 245);
 }
 .navbar li{
@@ -17,4 +17,4 @@
     justify-content:space around ;
     align-items:center;
     color:white;
-}
+} */

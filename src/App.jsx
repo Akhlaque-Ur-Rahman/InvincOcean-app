@@ -1,42 +1,31 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Banner from './components/Banner'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-const router = createBrowserRouter(
-  [
-    {
-      path:'/',
-      element: <div>
-        <Navbar/>
-        <Banner/>
-        <div>
-      
-        </div>
-      </div>,
-    },
-    {
-      path:'/about',
-      element:<div>
-        <Navbar/>
-        <h1 className='text-9xl'>About Us</h1>
-      </div>
-    },
-    {
-      path:'/contact',
-      element:<div>
-        <Navbar/>
-        <h1 className='text-9xl'>Contact Us</h1>
-      </div>
-    }
-  ]
-)
+import HomePage from './pages/Home'
+import {Routes,Route } from 'react-router-dom';
+import {Home} from 'lucide-react';
+import About from './pages/About';
+import Contact from './pages/Contact';
+import HeroBox from './components/HeroBox';
+
+
 
 function App() {
   
 
   return (
     <>
-      <RouterProvider router = {router} />
+    
+    
+    <Routes>
+        <Route path='/' element={
+        <div>
+          <HeroBox/>
+
+        </div>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+      </Routes>
     </>
   )
 }
