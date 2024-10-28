@@ -1,13 +1,91 @@
 .header{
     height:90vh;
     background-color:#001d3d;
+    
+    
 }
 .nav{
     background-color:#caf0f8;
 }
+
+.nav-btn{
+    background:linear-gradient(to bottom right, var(--primary-color), var(--secondary-color))
+}
 #menu-icon{
     display:none;
 }
-.nav-btn{
-    background:linear-gradient(to bottom right, var(--primary-color), var(--secondary-color))
+
+@media (max-width:992px){
+    .header{
+        /* overflow:hidden; */
+    }
+    .nav-btn{
+        display:none;
+    }
+    #menu-icon{
+        display:block;
+    }
+    .nav{
+        overflow:hidden;
+    }
+    #navbar{
+        padding:1rem
+    }
+    #nav-opts{
+        height:300px;
+        display:none;
+        position:absolute;
+        right:-100%;
+        background-color:#caf0f8;
+        top:64px;
+        width:100%;
+        z-index:1;
+        text-align:center;
+    }
+    #hero-container{
+        margin-top:2rem;
+        padding:1rem;
+        flex-direction:column;
+        margin-bottom:2rem;
+        
+        
+        
+    }
+    .hero-text{
+        width:100%;
+        align-items:start;
+        
+    }
+    .hero-text h1,h2,h3{
+        width:600px;
+        margin-bottom:1rem;
+    }
+    #cards-box{
+        min-height:100vh;
+        width:100%;
+        /* display:block; */
+        flex-direction:column;
+        padding:1rem 0;
+        background-color:red;
+        /* bottom:-100%; */
+        top:0;
+        transform:translateY(70%)
+        /* transform:translateY(0%); */
+        
+        
+    }
+    #poster1,#poster2,#poster3{
+        width:100%;
+        border-radius:
+
+    }
+    #poster2 img{
+        height:500px;
+        width:600px;
+    }
+    .posters h1,p{
+        text-align:center;
+        margin-bottom:.5rem;
+    }
+
 }
