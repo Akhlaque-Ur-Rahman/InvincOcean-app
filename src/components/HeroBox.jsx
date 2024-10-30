@@ -23,7 +23,7 @@ const HeroBox = () => {
     <>
         
       <div className='header w-full h-auto'>
-        <div className="nav flex text-black justify-between align-middle px-60 py-2" id='navbar'>
+        <div className="nav flex text-black justify-between align-middle px-60 py-2 sticky top-0 z-50" id='navbar'>
         <div className='flex justify-center items-center'>
                 <img src={logo} alt="InvincbleOcean-logo" className='w-48 text-white'/>
         </div>
