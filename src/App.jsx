@@ -7,6 +7,7 @@ import {Home} from 'lucide-react';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import HeroBox from './components/HeroBox';
+import Carousel from './components/Carousel';
 
 
 
@@ -21,7 +22,7 @@ function App() {
         <Route path='/' element={
         <div>
           <HeroBox/>
-          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, aspernatur? Necessitatibus eius similique, quos odio commodi error harum quo illum corrupti mollitia perferendis tenetur maiores nulla, explicabo libero quis temporibus.</div>
+          <Carousel/>
         </div>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
