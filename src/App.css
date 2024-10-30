@@ -66,17 +66,18 @@
         /* display:block; */
         flex-direction:column;
         padding:1rem 0;
-        background-color:red;
-        /* bottom:-100%; */
-        top:0;
-        transform:translateY(70%)
+        /* background-color:red; */
+        position:static;
+        /* top:0; */
+        /* transform:translateY(70%) */
         /* transform:translateY(0%); */
         
         
     }
     #poster1,#poster2,#poster3{
         width:100%;
-        border-radius:
+        /* background-color:#001d3d; */
+        box-shadow:0 0 6px 6px rgba(0,0,0,0.3);
 
     }
     #poster2 img{
